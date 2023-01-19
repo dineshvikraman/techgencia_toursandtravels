@@ -44,9 +44,20 @@ Booking Flow
     Click Button    xpath://button[contains(text(),'Log in')]
     Sleep    5 
     
-    Click Element   xpath:/html/body/header/div/div[1]/p[2]/a    
+    
+    Click Element    xpath:/html/body/header/div/div[1]/p[2]/a                           
     Select From List By Label    location_filter    Chile - Chile
+    Sleep    2    
+    Select From List By Label    activity_filter    Sight Seeing        
     Click Button    xpath://*[@id="post-427"]/div/div[1]/div/div[1]/div/div/form/div/button 
+    
+    Click Button    xpath:/html/body/div[1]/div/div[2]/div/main/article/div/div/div/div[2]/div[2]/div/div[14]/div/div[2]/div/button    
+    Sleep    5    
+    Click Button    
+                     
+       
+    
+    
     
            
        
