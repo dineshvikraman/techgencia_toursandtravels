@@ -54,7 +54,7 @@ Booking Flow
     
 #result
     
-    Click Button    xpath:/html/body/div[1]/div/div[2]/div/main/article/div/div/div/div[2]/div[2]/div/div[14]/div/div[2]/div/button    
+    Click Button    xpath://*[@id="post-51734"]/div/div/div/div[2]/div[2]/div/div[13]/div/div[2]/div/button    
     Sleep    5    
     
 #details
@@ -67,7 +67,20 @@ Booking Flow
     
 
 #checkout
-    Sleep    5      
+    Sleep    120             
+    Click Element    xpath:/html/body/div[1]/div/div[2]/div/main/article/div/div/form[2]/div[2]/div/div/ul/li[2]/span/input           
+    Sleep    10
+    #Click Link    xpath:/html/body/div/div/div/div/div[1]/span    
+    #Click Element    name:login_email   
+         
+                       
+    
+     
+     
+            
+    
+        
+        
     
                   
         
